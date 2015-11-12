@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="PDSlib_schema.svg"
+   inkscape:export-filename="/home/brock/IPy_Notebooks/Proxies/PDS/PDSlib_schema.png"
+   inkscape:export-xdpi="89.900002"
+   inkscape:export-ydpi="89.900002">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4108"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path4126"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path4129"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4129-5"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-77"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4129-0"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4129-1"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4129-01"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="577.46031"
+     inkscape:cy="385.84006"
+     inkscape:document-units="px"
+     inkscape:current-layer="g6166-8"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:window-width="1158"
+     inkscape:window-height="854"
+     inkscape:window-x="130"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3763"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <g
+       id="g3803">
+      <g
+         id="g3825"
+         transform="matrix(0.65196529,0,0,0.65196529,635.24451,430.91809)">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:3.00180244;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3759"
+           width="148.35788"
+           height="194.1106"
+           x="47.674549"
+           y="228.33989" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,47.330458,-338.41701)"><flowRegion
+             id="flowRegion3767"><rect
+               id="rect3769"
+               width="73.741135"
+               height="83.842659"
+               x="27.274118"
+               y="476.57523" /></flowRegion><flowPara
+             id="flowPara3771"
+             style="font-size:27.74591064px;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">LiPD</flowPara><flowPara
+             style="font-size:27.74591064px;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara3865" /><flowPara
+             style="font-size:27.74591064px;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara3867" /></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4-6-7-9-1"
+           style="font-size:15.18122387px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,66.653981,-219.58934)"><flowRegion
+             id="flowRegion3767-0-6-2-8-1"><rect
+               id="rect3769-0-2-8-7-8"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara5897-5-2-0">df_to_LiPD</flowPara><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara5934-0-5" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3865-2-2-8-4-9" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3867-5-5-3-88-6" /></flowRoot>        <g
+           id="g6166"
+           transform="translate(2.1543257e-5,-15.338253)">
+          <rect
+             ry="53.917416"
+             y="239.12794"
+             x="-792.54449"
+             height="107.83485"
+             width="267.41483"
+             id="rect6164"
+             style="opacity:0.4;fill:#30ff00;fill-opacity:1;stroke:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text6068"
+             y="281.40213"
+             x="-765.20038"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.35295868px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+               y="281.40213"
+               x="-765.20038"
+               id="tspan6070"
+               sodipodi:role="line">Edit with</tspan><tspan
+               style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+               y="319.74774"
+               x="-765.20038"
+               sodipodi:role="line"
+               id="tspan3430">spreadsheet</tspan></text>
+        </g>
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.40000000000000002;fill:#30ff00;fill-opacity:1;stroke:none;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:25.29999923999999822;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path6108"
+           sodipodi:cx="355"
+           sodipodi:cy="369.09448"
+           sodipodi:rx="85"
+           sodipodi:ry="85"
+           d="m 440,369.09448 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85 z"
+           transform="matrix(1.533824,0,0,1.533824,-930.52973,-240.71236)" />
+        <path
+           sodipodi:type="arc"
+           style="opacity:0.69999999999999996;fill:#ff8900;fill-opacity:1;stroke:none;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:25.29999923999999822;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path6108-7"
+           sodipodi:cx="355"
+           sodipodi:cy="369.09448"
+           sodipodi:rx="85"
+           sodipodi:ry="85"
+           d="m 440,369.09448 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85 z"
+           transform="matrix(1.533824,0,0,1.533824,-681.83108,-63.227012)" />
+        <g
+           id="g6166-1"
+           transform="translate(475.48546,414.13246)">
+          <rect
+             ry="53.917416"
+             y="231.38097"
+             x="-738.31561"
+             height="107.83485"
+             width="270.51364"
+             id="rect6164-9"
+             style="opacity:0.7;fill:#ff8900;fill-opacity:1;stroke:none" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text6068-6"
+             y="273.65512"
+             x="-703.06891"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.35295868px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+               y="273.65512"
+               x="-703.06891"
+               id="tspan6070-8"
+               sodipodi:role="line">Analyze</tspan><tspan
+               style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+               y="312.00073"
+               x="-703.06891"
+               sodipodi:role="line"
+               id="tspan3428">with python</tspan><tspan
+               style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#333333;fill-opacity:1"
+               y="350.34631"
+               x="-703.06891"
+               sodipodi:role="line"
+               id="tspan6212" /></text>
+          <g
+             id="g6166-8"
+             transform="translate(500.12005,-426.37192)">
+            <rect
+               ry="56.241508"
+               y="234.47975"
+               x="-721.27228"
+               height="112.48305"
+               width="205.439"
+               id="rect6164-1"
+               style="opacity:0.4;fill:#6900e2;fill-opacity:0.9254902;stroke:none" />
+            <text
+               sodipodi:linespacing="125%"
+               id="text6068-1"
+               y="278.30331"
+               x="-693.61676"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:61.35295868px;line-height:125%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+                 y="278.30331"
+                 x="-693.61676"
+                 sodipodi:role="line"
+                 id="tspan3440">Query</tspan><tspan
+                 style="font-style:oblique;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30.67647934px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Oblique';fill:#333333;fill-opacity:1"
+                 y="316.64893"
+                 x="-693.61676"
+                 sodipodi:role="line"
+                 id="tspan3444">database</tspan></text>
+          </g>
+        </g>
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4"
+           style="font-size:15.18122387000000018px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,-142.66954,-490.26582)"><flowRegion
+             id="flowRegion3767-0"><rect
+               id="rect3769-0"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold;fill-opacity:1"
+             id="flowPara5827">PDS_to_LiPD</flowPara><flowPara
+             style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1"
+             id="flowPara3865-2" /><flowPara
+             style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1"
+             id="flowPara3867-5" /></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4-6"
+           style="font-size:15.18122387000000018px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,-322.66954,-490.26582)"><flowRegion
+             id="flowRegion3767-0-6"><rect
+               id="rect3769-0-2"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold;fill-opacity:1"
+             id="flowPara5897">LiPD_to_PDS</flowPara><flowPara
+             style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1"
+             id="flowPara3865-2-2" /><flowPara
+             style="font-size:15.18122387000000018px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique;fill-opacity:1"
+             id="flowPara3867-5-5" /></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4-6-7"
+           style="font-size:15.18122387px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,-408.83145,-158.23638)"><flowRegion
+             id="flowRegion3767-0-6-2"><rect
+               id="rect3769-0-2-8"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara5897-5">PDS_to_df</flowPara><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara5934" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3865-2-2-8" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3867-5-5-3" /></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4-6-7-7"
+           style="font-size:15.18122387px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,-531.53737,-219.58934)"><flowRegion
+             id="flowRegion3767-0-6-2-5"><rect
+               id="rect3769-0-2-8-0"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara5897-5-9">df_to_PDS</flowPara><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara5934-8" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3865-2-2-8-7" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3867-5-5-3-8" /></flowRoot>        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-4-6-7-9"
+           style="font-size:15.18122387px;font-style:oblique;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Oblique"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,-25.375458,-158.23638)"><flowRegion
+             id="flowRegion3767-0-6-2-8"><rect
+               id="rect3769-0-2-8-7"
+               width="133.61781"
+               height="55.241924"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique" /></flowRegion><flowPara
+             style="font-size:15.18122387000000018px;font-style:normal;font-weight:bold;fill:#333333;-inkscape-font-specification:DejaVu Sans Bold"
+             id="flowPara5897-5-2">LiPD_to_df</flowPara><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara5934-0" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3865-2-2-8-4" /><flowPara
+             style="font-size:15.18122387px;font-style:oblique;font-weight:normal;fill:#333333;-inkscape-font-specification:DejaVu Sans Oblique"
+             id="flowPara3867-5-5-3-88" /></flowRoot>        <path
+           sodipodi:type="arc"
+           style="opacity:0.40000000000000002;fill:#6900e2;fill-opacity:0.92488265000000003;stroke:none;stroke-width:2;stroke-linejoin:bevel;stroke-miterlimit:25.29999923999999822;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="path6108-7-4"
+           sodipodi:cx="355"
+           sodipodi:cy="369.09448"
+           sodipodi:rx="85"
+           sodipodi:ry="85"
+           d="m 440,369.09448 a 85,85 0 0 1 -85,85 85,85 0 0 1 -85,-85 85,85 0 0 1 85,-85 85,85 0 0 1 85,85 z"
+           transform="matrix(1.533824,0,0,1.533824,-424.36778,-240.71235)" />
+      </g>
+      <g
+         transform="matrix(0.65196529,0,0,0.65196529,302.74221,430.91809)"
+         id="g3825-9">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:3.00180244;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3759-0"
+           width="148.35788"
+           height="194.1106"
+           x="47.674549"
+           y="228.33989" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-6"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+           inkscape:transform-center-x="122.4044"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.197509,0,0,1.4493312,47.330458,-338.41701)"><flowRegion
+             id="flowRegion3767-7"><rect
+               id="rect3769-4"
+               width="73.741135"
+               height="83.842659"
+               x="27.274118"
+               y="476.57523" /></flowRegion><flowPara
+             id="flowPara3771-8"
+             style="font-size:27.74591064px;font-weight:bold;-inkscape-font-specification:DejaVu Sans Bold">PDS</flowPara></flowRoot>      </g>
+      <g
+         transform="matrix(0.65196529,0,0,0.65196529,478.77284,528.71288)"
+         id="g3825-5">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:3.00180244;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3759-5"
+           width="148.35788"
+           height="194.1106"
+           x="27.573025"
+           y="258.33987" />
+        <flowRoot
+           xml:space="preserve"
+           id="flowRoot3765-3"
+           style="font-size:13.6631012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+           inkscape:transform-center-x="110.27319"
+           inkscape:transform-center-y="198.34946"
+           transform="matrix(1.0788267,0,0,1.4493312,-29.374919,-326.06186)"><flowRegion
+             id="flowRegion3767-4"><rect
+               id="rect3769-8"
+               width="185.28596"
+               height="110.20223"
+               x="27.274118"
+               y="476.57523"
+               style="font-size:13.6631012px;text-align:center;text-anchor:middle" /></flowRegion><flowPara
+             id="flowPara3771-5"
+             style="font-size:19.62618299px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:DejaVu Sans Bold">pandas dataframes</flowPara></flowRoot>        <path
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:25.29999923999999822;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
+           d="m 170,242.36218 c 180,-30 330,0 330,0"
+           id="path3922"
+           inkscape:connector-curvature="0"
+           transform="translate(-230,-140)"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:25.29999924;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
+           d="m -150,292.36218 c 20,80 160,80 160,80"
+           id="path3922-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+        <path
+           style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:25.29999924;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#Arrow2Lstart);marker-end:url(#Arrow2Lend)"
+           d="m 190,372.36218 c 120,0 155.50364,-64.71238 160,-80"
+           id="path3922-5-5"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+  </g>
+</svg>
