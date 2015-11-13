@@ -118,3 +118,40 @@ def LiPD_to_PDS(dict_in, file):
     df_to_PDS(file, dfD, dfM)
 
 #==========================================================
+import bokeh.plotting as bk
+from bokeh.plotting import figure
+from bokeh.models import HoverTool, BoxAnnotation
+from bokeh.io import output_file, show, save, show, vform
+from bokeh.models.widgets import Panel, Tabs
+
+bk.output_notebook()
+
+# from http://colorbrewer2.org/ 
+#colors = ["#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00","#ffff33","#a65628","#f781bf"]
+# from https://github.com/mbostock/d3/wiki/Ordinal-Scales
+colors = ["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17bec"]
+
+def df_plot(dfD, xCol, yCols):
+
+    hover1 = HoverTool(tooltips=[("x,y", "(@x, @y)")])
+    tools1 = ["pan,resize,box_zoom,wheel_zoom,crosshair",hover1,"reset,save"]
+    hover2 = HoverTool(tooltips=[("x,y", "(@x, @y)")])
+    tools2 = ["pan,resize,box_zoom,wheel_zoom,crosshair",hover2,"reset,save"]
+    
+    plot1 = figure(width=600, height=600, tools=tools1)
+    plot2 = figure(width=600, height=600, tools=tools2,
+            x_range=plot1.x_range, y_range=plot1.y_range)
+   
+    tab1 = Panel(child=plot1, title="line + points")
+    tab2 = Panel(child=plot2, title="points only")
+ 
+    for i in yCols:
+    	if dfD.iloc[:,i].count() > 0:
+    		plot1.line(dfD.iloc[:,xCol],dfD.iloc[:,i], line_color=colors[i], line_width=2, legend=dfD.columns[i])
+    		plot1.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=2, legend=dfD.columns[i])
+    		plot2.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=2, legend=dfD.columns[i])
+   
+    tabs = Tabs(tabs=[ tab1, tab2 ])
+    show(tabs) 
+
+#==========================================================
