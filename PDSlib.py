@@ -49,7 +49,7 @@ def df_to_LiPD(dfD, dfM, verbose=True):
         else:
             if parameter not in parameters:
                 if verbose:
-                    print 'df_to_LiPD: Warning: at line %4d : %s not present in Data worksheet' \
+                    print 'df_to_LiPD: Warning: at line %4d : %s not present in Data worksheet => considered as global attribut' \
                                         %(index+1, parameter)
 
         d = dict_out
@@ -131,15 +131,15 @@ bk.output_notebook()
 # from https://github.com/mbostock/d3/wiki/Ordinal-Scales
 colors = ["#1f77b4","#ff7f0e","#2ca02c","#d62728","#9467bd","#8c564b","#e377c2","#7f7f7f","#bcbd22","#17bec"]
 
-def df_plot(dfD, xCol, yCols):
+def df_plot(dfD, xCol, yCols, width=600, height=600):
 
     hover1 = HoverTool(tooltips=[("x,y", "(@x, @y)")])
     tools1 = ["pan,resize,box_zoom,wheel_zoom,crosshair",hover1,"reset,save"]
     hover2 = HoverTool(tooltips=[("x,y", "(@x, @y)")])
     tools2 = ["pan,resize,box_zoom,wheel_zoom,crosshair",hover2,"reset,save"]
     
-    plot1 = figure(width=600, height=600, tools=tools1)
-    plot2 = figure(width=600, height=600, tools=tools2,
+    plot1 = figure(width=width, height=height, tools=tools1)
+    plot2 = figure(width=width, height=height, tools=tools2,
             x_range=plot1.x_range, y_range=plot1.y_range)
    
     tab1 = Panel(child=plot1, title="line + points")
