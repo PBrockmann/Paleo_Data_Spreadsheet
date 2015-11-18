@@ -147,9 +147,9 @@ def df_plot(dfD, xCol, yCols, width=600, height=600):
  
     for i in yCols:
     	if dfD.iloc[:,i].count() > 0:
-    		plot1.line(dfD.iloc[:,xCol],dfD.iloc[:,i], line_color=colors[i], line_width=2, legend=dfD.columns[i])
-    		plot1.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=2, legend=dfD.columns[i])
-    		plot2.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=2, legend=dfD.columns[i])
+    		plot1.line(dfD.iloc[:,xCol],dfD.iloc[:,i], line_color=colors[i], line_width=1, legend=dfD.columns[i])
+    		plot1.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=1, legend=dfD.columns[i])
+    		plot2.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=1, legend=dfD.columns[i])
    
     tabs = Tabs(tabs=[ tab1, tab2 ])
     show(tabs) 

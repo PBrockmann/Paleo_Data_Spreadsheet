@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{ title }}</title>
+ <link href="my_styles.css" type="text/css" rel="stylesheet" />
+{{ bokeh_js }}
+{{ bokeh_css }}
+</head>
+<body>
+<h1>Bokeh - PDS example</h1>
+<p>
+is now a spectrum of developing countries and many advances
+have been made since our early notions of development from the 60s.
+</p>
+{{ plot_div|indent(8) }}
+<br />
+<div class="CSSTable" >
+{{ metadata }}
+</div>
+<br />
+{{ plot_script|indent(8) }}
+</body>
+</html>
