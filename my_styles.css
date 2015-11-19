@@ -6,6 +6,6 @@ html *
 }
 
 .CSSTable table { border-collapse: collapse; border: 1px solid #000000; margin-left: 20px; }
-.CSSTable thead tr:first-child { background-color: #CCC; }
+.CSSTable thead tr:first-child { background-color: #aaaaaa; }
 .CSSTable tr:nth-child(even) { background-color: #ffffff; }
 .CSSTable tr:nth-child(odd) { background-color: #e5e5e5; }

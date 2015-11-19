@@ -11,17 +11,17 @@ import datetime
 import collections
 
 #==========================================================
-def PDS_to_df(file):
+def PDS_to_df(PDS_inputfile):
 
-    dfD = pd.read_excel(file, sheetname='Data')
-    dfM = pd.read_excel(file, sheetname='Metadata', header=None, names=['Attribute', 'Value'])
+    dfD = pd.read_excel(PDS_inputfile, sheetname='Data')
+    dfM = pd.read_excel(PDS_inputfile, sheetname='Metadata', header=None, names=['Attribute', 'Value'])
 
     return dfD, dfM 
 
 #==========================================================
-def df_to_PDS(file, dfD, dfM):
+def df_to_PDS(dfD, dfM, PDS_outputfile):
 
-    writer = pd.ExcelWriter(file)
+    writer = pd.ExcelWriter(PDS_outputfile)
 
     dfD.to_excel(writer, sheet_name="Data", index=False)                 
     dfM.to_excel(writer, sheet_name="Metadata", index=False, header=False)
@@ -102,20 +102,20 @@ def LiPD_to_df(dict_in):
     return dfD, dfM
 
 #==========================================================
-def PDS_to_LiPD(file, verbose=True):
+def PDS_to_LiPD(PDS_inputfile, verbose=True):
 
-    dfD, dfM = PDS_to_df(file)
+    dfD, dfM = PDS_to_df(PDS_inputfile)
     
     dict_out = df_to_LiPD(dfD, dfM, verbose=verbose)
     
     return dict_out
 
 #==========================================================
-def LiPD_to_PDS(dict_in, file):
+def LiPD_to_PDS(dict_in, PDS_outputfile):
 
     dfD, dfM = LiPD_to_df(dict_in)
 
-    df_to_PDS(file, dfD, dfM)
+    df_to_PDS(dfD, dfM, PDS_outputfile)
 
 #==========================================================
 import bokeh.plotting as bk
@@ -123,6 +123,9 @@ from bokeh.plotting import figure
 from bokeh.models import HoverTool, BoxAnnotation
 from bokeh.io import output_file, show, save, show, vform
 from bokeh.models.widgets import Panel, Tabs
+from bokeh.embed import file_html
+from bokeh.resources import CDN
+from bokeh.resources import JSResources, CSSResources
 
 bk.output_notebook()
 
@@ -152,6 +155,36 @@ def df_plot(dfD, xCol, yCols, width=600, height=600):
     		plot2.scatter(dfD.iloc[:,xCol],dfD.iloc[:,i], marker="+", line_color=colors[i], line_width=1, legend=dfD.columns[i])
    
     tabs = Tabs(tabs=[ tab1, tab2 ])
+
     show(tabs) 
+
+    return tabs
+
+#==========================================================
+from jinja2 import Template
+import os
+
+def PDS_to_html(PDS_inputfile, xCol, yCols, HTML_outputfile, title=None, width=600, height=600):
+
+    dfD, dfM = PDS_to_df(PDS_inputfile)
+
+    plot = df_plot(dfD, xCol, yCols, width=width, height=height)
+
+    with open('my_template.jinja', 'r') as f:
+    	template = Template(f.read())
+
+    js_resources = JSResources(mode='inline')
+    css_resources = CSSResources(mode='inline')
+   
+    if not title: 
+    	title = os.path.basename(PDS_inputfile) 
+    html = file_html(plot, None, title, template=template, 
+                    js_resources=js_resources, css_resources=css_resources,
+                    template_variables={"metadata": dfM.sort_values(by='Attribute').to_html(index=False),
+                                        "H3_title": title,
+					"footer": "Created the " + datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S') })
+
+    with open(HTML_outputfile, 'w') as f:
+    	f.write(html)
 
 #==========================================================
